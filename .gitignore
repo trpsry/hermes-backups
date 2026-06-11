@@ -1,0 +1,10 @@
+# Obsidian workspace (changes constantly, not meaningful backup)
+.obsidian/workspace*.json
+.obsidian/workspace.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Trash
+.trash/
