@@ -70,6 +70,13 @@ type: area
 - งานรูป/สติกเกอร์ให้ใช้ batch-first: วาง prompt ให้คม → เจนหลายท่าพร้อมกัน → vision ตรวจเฉพาะรูปที่ต้องคัด/แก้
 - งาน cron ให้ prompt สั้น, skills น้อย, toolsets จำกัด, และห้าม session_search เว้นแต่จำเป็น
 - ถ้างานอาจกิน quota มาก ให้เตือนพี่จอนก่อนและเสนอเวอร์ชันประหยัด
+## Session Curation Notes
+- ก่อนลบ session หลายรายการ ให้ backup `state.db` ก่อนทุกครั้ง
+- ลบเฉพาะ noise ที่ชัดเจน: empty session, greeting-only, duplicate smoke/handoff report, cron wrapper noise ที่ไม่มีสาระเพิ่ม
+- ถ้า session ซ้ำแต่มีเนื้อหาจริง ให้เก็บ canonical session ไว้ก่อน แล้วค่อยลบตัวซ้ำเท่านั้น
+- หลังลบต้อง verify ทั้ง `sessions list` / `sessions stats` และ query DB ตรง ว่า session กับ messages หายจริง
+- 12 Jun 2026: cleanup secondmodel ลบ 9 sessions (empty/greeting/thin duplicate) และ default ลบ 4 cron-wrapper sessions ที่มีแค่ 2 messages; backup เก็บที่ `~/.hermes/backups/session-cleanup/`
+
 ## Rituals
 - Morning briefing
 - Daily check-in
