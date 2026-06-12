@@ -12,10 +12,9 @@ type: index
 สารบัญรวม skill ที่อยู่ในโฟลเดอร์นี้
 
 ## Skills
-- [[team-ai-workflow]] — workflow งานเฮอ-ลี่, การแบ่งงาน, final review
-- [[hermes-sub-agent]] — การตั้งค่า multi-profile, gateway, routing, channel prompts
 - [[github-workflows]] — งาน GitHub / git / PR / issues / releases / Actions
 
 ## หมายเหตุ
-- ถ้ามี skill ใหม่ ให้เติมชื่อไว้หน้านี้ด้วย
-- ใช้หน้านี้เป็นทางลัดเวลาอยากเปิดดู skill ทั้งหมดในที่เดียว
+- ตอนนี้ในเครื่องหลักมี skill อยู่ไฟล์เดียวตามที่เห็นในภาพ
+- ถ้ามี skill ใหม่ในอนาคต ค่อยเติมชื่อไว้หน้านี้
+- ใช้หน้านี้เป็นทางลัดเวลาอยากเปิด skill ที่มีอยู่จริงในเครื่องนี้
