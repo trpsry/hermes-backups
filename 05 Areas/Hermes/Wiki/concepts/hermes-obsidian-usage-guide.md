@@ -42,7 +42,7 @@ wiki_type: concept
 - **หน้ารวมทางลัด** → ทำเป็น MOC
 
 ## Vault นี้อยู่ที่ไหน
-`/storage/emulated/0/Documents/Hermes vault` — ดูรายละเอียด environment ที่ [[05 Areas/Hermes/Wiki/entities/hermes-termux-android-backend|Hermes Termux Android Backend]]
+`/storage/emulated/0/Documents/Hermes Vault` — ดูรายละเอียด environment ที่ [[05 Areas/Hermes/Wiki/entities/hermes-termux-android-backend|Hermes Termux Android Backend]]
 
 ## Related
 - [[05 Areas/Hermes/Wiki/entities/hermes-termux-android-backend|Hermes Termux Android Backend]]
