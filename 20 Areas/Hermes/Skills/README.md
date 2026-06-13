@@ -13,6 +13,7 @@ type: index
 
 ## Skills
 - [[github-workflows]] — งาน GitHub / git / PR / issues / releases / Actions
+- [[grill-me-hermes]] — กรอบถามงานเสี่ยง/งานยังไม่ชัด ก่อนวางแผนและขออนุมัติ
 
 ## หมายเหตุ
 - ตอนนี้ในเครื่องหลักมี skill อยู่ไฟล์เดียวตามที่เห็นในภาพ
