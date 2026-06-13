@@ -122,7 +122,7 @@ https://script.google.com/macros/s/AKfycbwHBz7o6sAca2BPiYlCP2AiuhN973McffPa-c66m
 - พิจารณาสร้าง workflow/skill: “Model Provider Failover Continuity”
 
 ## Related
-- [[Memory Recovery - 2026-05-27 gap]] — raw recovery log archived under `80 Archive/2026-05-27 recovery raw/`
+- [[Memory Recovery - 2026-05-27 gap]] — raw recovery log archived under `08 Archive/2026-05-27 recovery raw/`
 - [[AI Context Bridge]]
 - [[Latest Work Checkpoint]]
 - [[Hermes Operating Notes]]

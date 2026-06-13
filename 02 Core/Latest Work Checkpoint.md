@@ -11,10 +11,10 @@ updated: 2026-06-11
 ใช้หน้านี้เป็น “สถานะงานสดล่าสุด” สำหรับ session ใหม่, gateway restart, model switch หรือหลัง restore เพื่อให้เฮอต่อบริบทได้โดยไม่เดาจาก memory อย่างเดียวค่ะ
 
 ## Current active state
-- ตอนนี้ continuity backbone อยู่ที่ `00 Core` ชัดแล้ว: [[START HERE - Hermes Recovery]], [[Hermes Identity and Operating Rules]], [[AI Context Bridge]], [[Latest Work Checkpoint]]
+- ตอนนี้ continuity backbone อยู่ที่ `02 Core` ชัดแล้ว: [[START HERE - Hermes Recovery]], [[Hermes Identity and Operating Rules]], [[AI Context Bridge]], [[Latest Work Checkpoint]]
 - recovery/context reference ที่ไม่ต้องโหลดทุกครั้งถูกย้ายไป archive แล้ว: [[Recovered Context Summary - 2026-05-27]]
-- workflow/domain note ถูกจัดเข้า `20 Areas/Hermes` แล้ว เช่น [[Daily Learning Loop]] และ [[Finance Wallet Guard]]
-- templates ถูกย้ายออกมาไว้ที่ `90 Templates`
+- workflow/domain note ถูกจัดเข้า `05 Areas/Hermes` แล้ว เช่น [[Daily Learning Loop]] และ [[Finance Wallet Guard]]
+- templates ถูกย้ายออกมาไว้ที่ `09 Templates`
 - หลักการ re-anchor ล่าสุดคือ **เริ่มจาก memory + current chat ก่อน** แล้วค่อยอ่าน recovery notes ตามลำดับเท่าที่จำเป็น
 
 ## Required re-anchor workflow

@@ -6,7 +6,7 @@ tags:
 type: area
 ---
 
-> 📎 **Companion Note** — note นี้เป็น operational/support companion เท่านั้น ไม่ใช่ canonical source สำหรับ identity, tone, personality หรือ safety rules → canonical source อยู่ที่ [[00 Core/Hermes Identity and Operating Rules]] (หรือ [[Hermes Identity and Operating Rules]])
+> 📎 **Companion Note** — note นี้เป็น operational/support companion เท่านั้น ไม่ใช่ canonical source สำหรับ identity, tone, personality หรือ safety rules → canonical source อยู่ที่ [[02 Core/Hermes Identity and Operating Rules]] (หรือ [[Hermes Identity and Operating Rules]])
 # Hermes Operating Notes
 
 ## Role

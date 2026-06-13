@@ -48,7 +48,7 @@ updated: 2026-06-12
 ## Archive
 - [[Recovered Context Summary - 2026-05-27]] — สรุปกู้บริบทจาก Telegram replies (archived reference)
 - [[Duplicate Session Summaries - 2026-06-01]] — บันทึก session ซ้ำที่เก็บไว้เพื่อช่วยค้นย้อนหลัง
-- Raw recovery log: `80 Archive/2026-05-27 recovery raw/` — เก็บไว้ตรวจย้อนหลัง ไม่ต้องอ่านทุกครั้ง
+- Raw recovery log: `08 Archive/2026-05-27 recovery raw/` — เก็บไว้ตรวจย้อนหลัง ไม่ต้องอ่านทุกครั้ง
 
 ## Backup principle
 Obsidian vault นี้คือสมองสำรองของเฮอ ถ้า Termux/Hermes หาย ให้เริ่มจากหน้า Start Here แล้วค่อย restore config/session/tooling ค่ะ

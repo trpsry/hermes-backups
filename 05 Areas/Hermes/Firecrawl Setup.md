@@ -97,7 +97,7 @@ hermes tools
 5. เพิ่มลิงก์ใน MOC ถ้าเป็น note สำคัญ
 
 **ตัวอย่าง:**
-> หา docs ล่าสุดของ Hermes Firecrawl → สรุปเป็น note → บันทึกที่ `20 Areas/Hermes/Firecrawl Setup.md` → เพิ่มลิงก์ใน MOC - Hermes
+> หา docs ล่าสุดของ Hermes Firecrawl → สรุปเป็น note → บันทึกที่ `05 Areas/Hermes/Firecrawl Setup.md` → เพิ่มลิงก์ใน MOC - Hermes
 
 ---
 
