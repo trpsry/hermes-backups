@@ -109,6 +109,132 @@ type: guide
 
 ---
 
+## OpenCode Go — ตัวเลือกเด่นสำหรับลี่
+
+> อ้างอิงจากหน้า OpenCode Go / docs providers ณ 13 มิ.ย. 2026
+> รายชื่อใน Go เปลี่ยนได้ในอนาคต ถ้าจะใช้จริงให้เช็ก `/models` อีกครั้ง
+> ตอนนี้ **Claude / Sonnet 4 ไม่มีใน OpenCode Go**
+
+### DeepSeek V4 Pro
+เหมาะกับ:
+- งานเทคนิคหลัก
+- config / setup / debug
+- อ่าน code / command
+- งานที่ต้องคุมคุณภาพคำตอบ
+
+ใช้เป็น:
+- ตัวหลักของลี่เวลางานมีความเสี่ยงทางเทคนิค แต่ยังไม่ถึงขั้นให้เฮอลงมือเองทั้งหมด
+
+ข้อสังเกต:
+- จาก OpenCode Go docs เป็นตัวกลาง ๆ ที่คุ้ม และ DeepSeek ระบุว่าเด่นด้าน agentic coding, reasoning, world knowledge
+
+---
+
+### DeepSeek V4 Flash
+เหมาะกับ:
+- งานเร็ว
+- สรุปเบื้องต้น
+- scan note / scan file จำนวนมาก
+- งานย่อยที่ต้องประหยัด
+
+ใช้เป็น:
+- ตัวกวาดงาน / รอบแรก / งานไม่ซับซ้อน
+
+ข้อสังเกต:
+- เร็วและถูกมาก แต่ไม่ควรใช้เป็นตัว final สำหรับงานคิดยาก
+
+---
+
+### Kimi K2.7 Code
+เหมาะกับ:
+- งานโค้ดยาวหลายไฟล์
+- งานที่ต้องคิดหลาย step
+- งานที่มี tool call หลายรอบ
+- repo-level coding
+
+ใช้เป็น:
+- ตัวเลือกพิเศษของลี่สำหรับงาน code-heavy กว่าปกติ
+
+ข้อสังเกต:
+- Kimi ระบุชัดว่าเด่นเรื่อง long-horizon coding, 256K context, multi-step tool use
+
+---
+
+### MiMo V2.5
+เหมาะกับ:
+- งานที่มีรูป / screenshot / chart
+- งาน multimodal
+- งาน agentic ทั่วไป
+- coding ที่ต้องดูภาพหรือ UI ประกอบ
+
+ใช้เป็น:
+- ตัวอ่านภาพ + ทำงานต่อได้ในตัวเดียว
+
+ข้อสังเกต:
+- Xiaomi ระบุว่าเด่นด้าน agency, visual/audio understanding, long context และ coding คุ้มราคา
+
+---
+
+### MiniMax M3
+เหมาะกับ:
+- งาน context ยาวมาก
+- งาน coding + content ปนกัน
+- งานที่อาจมีรูป / video / desktop context
+- rewrite ภาษาพร้อม reasoning
+
+ใช้เป็น:
+- ตัวอเนกประสงค์เมื่ออยากได้ทั้ง coding + multimodal + long context
+
+ข้อสังเกต:
+- MiniMax ระบุว่า M3 เด่นด้าน coding, agentic work, 1M context, native multimodal
+
+---
+
+### Qwen3.7 Max
+เหมาะกับ:
+- งาน reasoning หนัก
+- งาน context ยาวมาก
+- งานวิเคราะห์ยาก
+- งาน agentic ที่ซับซ้อน
+
+ใช้เป็น:
+- ตัวหนักพิเศษของลี่ เฉพาะตอน DeepSeek V4 Pro ยังไม่พอ
+
+ข้อสังเกต:
+- Qwen3.7 Max เด่นด้าน reasoning/agent + 1M context
+- **เปลือง token มาก** ควรใช้เฉพาะตอนจำเป็นจริง
+
+---
+
+### Qwen3.7 Plus
+เหมาะกับ:
+- งานสมดุลระหว่าง reasoning กับ cost
+- งานที่ต้องมี vision / multimodal
+- งานที่ไม่หนักถึง Max
+
+ใช้เป็น:
+- ตัวกลางระหว่าง DeepSeek V4 Pro กับ Qwen3.7 Max
+
+ข้อสังเกต:
+- จากข้อมูลที่หาได้ Plus เป็นสาย balanced / multimodal มากกว่า Max
+
+---
+
+## สูตรเลือกโมเดลก่อนเริ่มงาน
+
+### เฮอ / default
+- **GPT-5.5** = คุมแผน / final review / งานเสี่ยง / decision สำคัญ
+- **GPT-5.4** = งานทั่วไปที่ไม่หนักมาก
+
+### ลี่ / secondmodel
+- **DeepSeek V4 Pro** = ค่าเริ่มต้นสำหรับงานเทคนิค
+- **DeepSeek V4 Flash** = งานเร็ว / งานกวาด / งานประหยัด
+- **Kimi K2.7 Code** = งานโค้ดยาวหลายไฟล์ / tool call หลายรอบ
+- **MiMo V2.5** = งานรูป / screenshot / multimodal
+- **MiniMax M3** = งาน long context + coding/content
+- **Qwen3.7 Max** = งาน reasoning หนักมากเท่านั้น
+- **Qwen3.7 Plus** = งาน balanced ที่อยากได้มากกว่า DeepSeek แต่ไม่อยากไปถึง Max
+
 ## Setup แนะนำ
 
 ### เฮอ / default
