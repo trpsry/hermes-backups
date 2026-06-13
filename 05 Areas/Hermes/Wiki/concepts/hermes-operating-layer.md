@@ -1,15 +1,25 @@
 ---
-status: active
-wiki_type: concept
-created: 2026-06-13
-updated: 2026-06-13
 aliases:
-  - Hermes Operating Layer
+- Hermes Operating Layer
+confidence: high
+created: 2026-06-13
 sources:
-  - [[Hermes Operating Notes]]
-  - [[Hermes Identity and Operating Rules]]
-  - [[05 Areas/Hermes/Wiki/raw/articles/karpathy-llm-wiki-pattern|Karpathy LLM Wiki Pattern — source notes]]
-confidence: medium
+- '[[Hermes Operating Notes]]'
+- '[[Hermes Identity and Operating Rules]]'
+- '[[05 Areas/Hermes/Wiki/raw/articles/karpathy-llm-wiki-pattern|Karpathy LLM Wiki Pattern — source notes]]'
+status: active
+tags:
+- hermes
+- wiki
+- concept
+- agent
+- workflow
+- multi-agent
+- safety
+- memory
+- stable
+updated: 2026-06-13
+wiki_type: concept
 ---
 # Hermes Operating Layer
 

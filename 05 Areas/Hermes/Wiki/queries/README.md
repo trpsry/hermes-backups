@@ -1,9 +1,11 @@
 ---
+created: 2026-06-13
 status: active
 tags:
 - hermes
 - wiki
-- queries
+- query
+updated: 2026-06-13
 wiki_type: query
 ---
 # queries

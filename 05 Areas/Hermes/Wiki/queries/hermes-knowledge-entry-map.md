@@ -1,16 +1,24 @@
 ---
-status: active
-wiki_type: query
-created: 2026-06-13
-updated: 2026-06-13
 aliases:
-  - Hermes Knowledge Entry Map
-sources:
-  - [[MOC - Hermes]]
-  - [[START HERE - Hermes Recovery]]
-  - [[Latest Work Checkpoint]]
-  - [[05 Areas/Hermes/Wiki/raw/articles/karpathy-llm-wiki-pattern|Karpathy LLM Wiki Pattern — source notes]]
+- Hermes Knowledge Entry Map
 confidence: medium
+created: 2026-06-13
+sources:
+- '[[MOC - Hermes]]'
+- '[[START HERE - Hermes Recovery]]'
+- '[[Latest Work Checkpoint]]'
+- '[[05 Areas/Hermes/Wiki/raw/articles/karpathy-llm-wiki-pattern|Karpathy LLM Wiki Pattern — source notes]]'
+status: active
+tags:
+- hermes
+- wiki
+- query
+- agent
+- workflow
+- memory
+- seed
+updated: 2026-06-13
+wiki_type: query
 ---
 # Hermes Knowledge Entry Map
 

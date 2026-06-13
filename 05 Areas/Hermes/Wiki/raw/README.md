@@ -1,9 +1,11 @@
 ---
+created: 2026-06-13
 status: active
 tags:
 - hermes
 - wiki
 - raw
+updated: 2026-06-13
 wiki_type: raw
 ---
 # raw

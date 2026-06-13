@@ -5,6 +5,7 @@ tags:
 - wiki
 - schema
 type: schema
+created: 2026-06-13
 updated: 2026-06-13
 ---
 # SCHEMA
@@ -47,6 +48,45 @@ confidence: high|medium|low
 6. ทุกงานต้องลง `log.md`
 7. ถ้าเป็นข้อมูลเร็ว/เปลี่ยนบ่อย ให้ใส่ `confidence: medium` หรือ `low`
 8. ถ้าเจอข้อมูลขัดกัน ให้เขียนไว้ตรง ๆ ไม่เขียนทับเงียบ ๆ
+
+## Tag Taxonomy
+ต้องเพิ่ม tag ใหม่ที่นี่ก่อนใช้จริง ห้ามใช้ tag ที่ไม่อยู่ใน taxonomy เพื่อป้องกัน tag sprawl
+
+### Structural (ทุกหน้า wiki ต้องมี)
+- `hermes` — ทุกหน้าต้องมี tag นี้
+- `wiki` — ใช้กับทุกหน้าที่อยู่ใน Wiki
+- `entity`, `concept`, `comparison`, `query` — ตาม wiki_type ของหน้า
+- `raw` — สำหรับ source notes ใน raw/
+- `schema`, `index`, `log`, `roadmap` — core files
+
+### Domain / Technical
+- `agent` — เกี่ยวกับ agent architecture, runtime
+- `model` — เกี่ยวกับ model/provider selection
+- `routing` — เกี่ยวกับ task routing, profile split
+- `workflow` — เกี่ยวกับ workflow, automation
+- `multi-agent` — เกี่ยวกับ multi-agent, team collaboration
+- `android`, `termux` — แพลตฟอร์ม / environment
+
+### Operations
+- `safety` — กฎความปลอดภัย, boundary
+- `recovery` — restore, playbook, continuity
+- `memory` — memory architecture, context
+- `skills` — skill management, skill health
+- `config` — configuration, setup
+- `backup` — backup procedures
+
+### Quality signals
+- `stable` — หน้าที่ผ่านการใช้งานและตรวจสอบแล้ว
+- `seed` — หน้าที่สร้างจาก seed candidate
+- `draft` — หน้ายังไม่สมบูรณ์
+
+### Rule
+ทุก tag บนหน้า wiki ต้องปรากฏใน taxonomy นี้ ถ้าต้องการ tag ใหม่ให้เพิ่มที่นี่ก่อน
+
+## Core file policy
+- `SCHEMA`, `index`, `log`, `_roadmap` เป็น core files ของ wiki
+- core files ใช้ `type:` ได้ตามบทบาทจริง (`schema`, `index`, `log`, `roadmap`) และไม่จำเป็นต้องมี `wiki_type`, `sources`, `confidence`
+- หน้า README ของแต่ละหมวดเป็นหน้าชี้ทางภายในหมวด ใช้ `wiki_type` ตามหมวดได้ และไม่จำเป็นต้องมี `sources` หรือ `confidence`
 
 ## Ingest / query / lint protocol
 - Ingest = เพิ่ม raw source ก่อน แล้วค่อยสร้างหรืออัปเดต wiki page ที่เกี่ยว พร้อมอัปเดต `index.md` และ `log.md`

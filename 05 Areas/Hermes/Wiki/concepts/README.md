@@ -1,9 +1,11 @@
 ---
+created: 2026-06-13
 status: active
 tags:
 - hermes
 - wiki
-- concepts
+- concept
+updated: 2026-06-13
 wiki_type: concept
 ---
 # concepts

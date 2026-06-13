@@ -1,14 +1,24 @@
 ---
-status: active
-wiki_type: comparison
-created: 2026-06-13
-updated: 2026-06-13
 aliases:
-  - Hermes Agent Model Routing
+- Hermes Agent Model Routing
+confidence: high
+created: 2026-06-13
 sources:
-  - [[Hermes Agent Model Guide]]
-  - [[05 Areas/Hermes/Wiki/raw/articles/karpathy-llm-wiki-pattern|Karpathy LLM Wiki Pattern — source notes]]
-confidence: medium
+- '[[Hermes Agent Model Guide]]'
+- '[[05 Areas/Hermes/Wiki/raw/articles/karpathy-llm-wiki-pattern|Karpathy LLM Wiki Pattern — source notes]]'
+status: active
+tags:
+- hermes
+- wiki
+- comparison
+- agent
+- model
+- routing
+- workflow
+- multi-agent
+- stable
+updated: 2026-06-13
+wiki_type: comparison
 ---
 # Hermes Agent Model Routing
 

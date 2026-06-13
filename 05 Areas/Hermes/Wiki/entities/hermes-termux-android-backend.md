@@ -1,15 +1,24 @@
 ---
-status: active
-wiki_type: entity
-created: 2026-06-13
-updated: 2026-06-13
 aliases:
-  - Hermes Termux Android Backend
-sources:
-  - [[Hermes Termux Android Context]]
-  - [[Hermes Agent Technical Details]]
-  - [[xurl Tool Details]]
+- Hermes Termux Android Backend
 confidence: medium
+created: 2026-06-13
+sources:
+- '[[Hermes Termux Android Context]]'
+- '[[Hermes Agent Technical Details]]'
+- '[[xurl Tool Details]]'
+status: active
+tags:
+- hermes
+- wiki
+- entity
+- android
+- termux
+- agent
+- safety
+- seed
+updated: 2026-06-13
+wiki_type: entity
 ---
 # Hermes Termux Android Backend
 
